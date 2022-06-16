@@ -325,8 +325,8 @@ In this section, detailed installation notes containing code blocks or screensho
 ---
 
 ## Usage
-### screenshots, code blocks, or animations explaining how to the vehicle/dealership loan match project.
 
+### screenshots, code blocks, or animations explaining how to the vehicle/dealership loan match project.
 -type python app.py in terminal to run the app  
  and the the app will return questions one by one:
 -when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
