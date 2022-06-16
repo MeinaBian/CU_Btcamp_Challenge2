@@ -330,7 +330,7 @@ In this section, detailed installation notes containing code blocks or screensho
 -type python app.py in terminal to run the app  
  and the the app will return questions one by one:
 -when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
-  ./data/daily_rate_sheet.csv  
+  [file_path](./data/daily_rate_sheet.csv ) 
 -follow the question typing in the credit score, monthly income, etc in terminal, hit enter  
 -The qulifying loan information will automatically be displayed as followed and save as qualifying_loans.csv in the data folder.  
  with the The monthly debt to income ratio is e.g. 22.50  
