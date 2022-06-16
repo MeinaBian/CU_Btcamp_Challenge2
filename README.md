@@ -24,7 +24,6 @@ import csv
 
 
 
-
 from qualifier.utils.fileio import load_csv
 
 from qualifier.utils.calculators import (
@@ -38,18 +37,10 @@ from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value 
 
 
+### frameworks and requirement of version control:
+check the requirements.txt for detailed or attached below
 
-frameworks and requirement of version control:
-check the requirements.txt for detailed
 
-operating systems
-specific versions of any critical dependencies that you have used in the stable version of your project.
-
----
-
-### Installation Guide(check the requirement.txt for version control detailed)
-
-In this section, you should include detailed installation notes containing code blocks and screenshots.
 
 absl-py==1.0.0
 altair==4.2.0
@@ -305,14 +296,39 @@ xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1639125986756/
 zict==2.0.0
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1643828507773/work
 
+
+### operating systems
+specific versions of any critical dependencies that used in the stable version of app.
+
+Edition	Windows 11 Pro
+Version	21H2
+Installed on	‎4/‎8/‎2022
+OS build	22000.675
+Serial number	R90T7J26
+Experience	Windows Feature Experience Pack 1000.22000.675.0
+
+Processor	Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz   2.59 GHz
+Installed RAM	32.0 GB (31.5 GB usable)
+System type	64-bit operating system, x64-based processor
+Pen and touch	Pen and touch support with 10 touch points
+
+---
+
+### Installation Guide(check the requirements.txt for system info and python pakage version control detailed)
+
+In this section, detailed installation notes containing code blocks or screenshots
+-Download all files, please include database csv file in the data folder  
+-run app.py in Any IDE, here use VS code 
+-when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
+  ./data/daily_rate_sheet.csv  
+
 ---
 
 ## Usage
 ### screenshots, code blocks, or animations explaining how to the vehicle/dealership loan match project.
-To use the loan qualifier app
 
--Download all files, please include database csv file in the data folder  
--run app.py in Any IDE, here use VS code  
+-type python app.py in terminal to run the app  
+ and the the app will return questions one by one:
 -when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
   ./data/daily_rate_sheet.csv  
 -follow the question typing in the credit score, monthly income, etc in terminal, hit enter  
