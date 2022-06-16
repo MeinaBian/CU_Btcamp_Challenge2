@@ -327,7 +327,7 @@ In this section, detailed installation notes containing code blocks or screensho
 ## Usage
 ### screenshots, code blocks, or animations explaining how to the vehicle/dealership loan match project.
 
-<!-- -type python app.py in terminal to run the app  
+-type python app.py in terminal to run the app  
  and the the app will return questions one by one:
 -when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
   ./data/daily_rate_sheet.csv  
@@ -335,7 +335,7 @@ In this section, detailed installation notes containing code blocks or screensho
 -The qulifying loan information will automatically be displayed as followed and save as qualifying_loans.csv in the data folder.  
  with the The monthly debt to income ratio is e.g. 22.50  
 -The loan to value ratio is e.g. 1.00.  
--The display show case of the initial test and the final saved csv file is included in the repo and attached below:   -->
+-The display show case of the initial test and the final saved csv file is included in the repo and attached below:  
 ![Showcase_save_qualifying_loans(csv_file_saved&printed)](shoecase_save_qualifying_loans(csv_file_saved&printed).jpg)
 <br>
 ![Showcase two_case_after_initial_run_loan_qualifier](two_case_after_initial_run_loan_qualifier.jpg)
