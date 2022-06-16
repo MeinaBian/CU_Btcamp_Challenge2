@@ -309,17 +309,21 @@ zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1643828507773/work
 
 ## Usage
 ### screenshots, code blocks, or animations explaining how to the vehicle/dealership loan match project.
-Download all files, please include database csv file in the data folder  
-run app.py in Any IDE, here use VS code  
-when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
-./data/daily_rate_sheet.csv  
-follow the question typing in the credit score, monthly income, etc in terminal, hit enter  
-the qulifying loan information will display as followed and save as qualifying_loans.csv in the data folder.  
-with the The monthly debt to income ratio is e.g. 22.50  
-The loan to value ratio is e.g. 1.00.  
-The display show case of the initial test and the final saved csv file is included in the repo and attached below:  
+To use the loan qualifier app
 
-
+-Download all files, please include database csv file in the data folder  
+-run app.py in Any IDE, here use VS code  
+-when asked "Enter a file path to a rate-sheet (.csv)" input the the local link as followed in the data folder  
+  ./data/daily_rate_sheet.csv  
+-follow the question typing in the credit score, monthly income, etc in terminal, hit enter  
+-The qulifying loan information will automatically be displayed as followed and save as qualifying_loans.csv in the data folder.  
+ with the The monthly debt to income ratio is e.g. 22.50  
+-The loan to value ratio is e.g. 1.00.  
+-The display show case of the initial test and the final saved csv file is included in the repo and attached below:  
+![Showcase_save_qualifying_loans(csv_file_saved&printed)](shoecase_save_qualifying_loans(csv_file_saved&printed).jpg)
+<br>
+![Showcase two_case_after_initial_run_loan_qualifier](two_case_after_initial_run_loan_qualifier.jpg)
+<br>
 ---
 
 ## Contributors
