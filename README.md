@@ -336,6 +336,7 @@ In this section, detailed installation notes containing code blocks or screensho
  with the The monthly debt to income ratio is e.g. 22.50  
 -The loan to value ratio is e.g. 1.00.  
 -The display show case of the initial test and the final saved csv file is included in the repo and attached below:  
+
 ![Showcase_save_qualifying_loans(csv_file_saved&printed)](shoecase_save_qualifying_loans(csv_file_saved&printed).jpg)
 <br>
 ![Showcase two_case_after_initial_run_loan_qualifier](two_case_after_initial_run_loan_qualifier.jpg)
